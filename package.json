@@ -1,14 +1,43 @@
 {
   "name": "rocket-toast",
-  "version": "0.1.0",
-  "private": true,
+  "version": "2.0.1",
+  "author": {
+    "name": "河畔一角",
+    "email": "sunnyboysoft@163.com",
+    "url": "http://www.imooc.com/t/1343480"
+  },
+  "main": "lib/rocket-toast.umd.js",
+  "unpkg": "lib/rocket-toast.umd.js",
+  "style": "lib/rocket-toast.css",
+  "files": [
+    "lib"
+  ],
+  "bugs": {
+    "url": "https://github.com/JackySoft/rocket-toast/issues"
+  },
+  "homepage": "https://jackysoft.github.io/rocket-toast/#/",
+  "publishConfig": {
+    "JackySoft:registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "vue-toast-moble",
+    "vue-toast",
+    "vue-loading",
+    "rocket-toast"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JackySoft/rocket-toast.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name rocket-toast --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "rocket-toast": "^2.0.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -18,6 +47,9 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^2.4.1",
+    "sass": "^1.43.4",
+    "sass-loader": "10.0.0",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
