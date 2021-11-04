@@ -1,6 +1,8 @@
 {
   "name": "rocket-toast",
+  "description": "一款基于移动端的Toast和Loading插件",
   "version": "2.0.2",
+  "license": "MIT",
   "author": {
     "name": "河畔一角",
     "email": "sunnyboysoft@163.com",
